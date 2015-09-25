@@ -5,7 +5,6 @@
     "trade" : {
       "type" : "object",
       "id" : "#urn:jsonschema:io:konik:zugferd:entity:trade:Trade",
-      "required" : true,
       "required" : ["delivery", "agreement", "settlement"],
       "properties" : {
         "delivery" : {
@@ -661,7 +660,6 @@
     "context" : {
       "type" : "object",
       "id" : "#urn:jsonschema:io:konik:zugferd:entity:Context",
-      "required" : true,
       "required" : ["guideline"],
       "properties" : {
         "test" : {
@@ -689,7 +687,6 @@
     "header" : {
       "type" : "object",
       "id" : "#urn:jsonschema:io:konik:zugferd:entity:Header",
-      "required" : true,
       "required" : ["code", "invoiceNumber", "name", "issued"],
       "properties" : {
         "code" : {
